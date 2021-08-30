@@ -11,6 +11,8 @@
 > No personal information is stored
 > 
 > No third parties can access this information
+>
+> No third parties will be given access to this information
 
 
 - All data transferred is encrypted
