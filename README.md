@@ -1,4 +1,4 @@
 # All Policies
 | Policy | Implemented |
 | --- | --- |
-| [Clicksforms privacy policy](clicksforms) | yes |
+| [Clicksforms privacy policy](https://clicksminuteper.github.io/policies/clicksforms) | yes |
