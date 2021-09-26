@@ -1,5 +1,1 @@
-# All Policies
-
-| Policy | Implemented |
-| --- | --- |
-| [Clicksforms privacy policy](https://clicksminuteper.github.io/policies/clicksforms) | yes |
+Please use [ClicksMinutePer/documentation](https://github.com/ClicksMinutePer/documentation) instead of this repository
