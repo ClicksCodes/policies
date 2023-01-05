@@ -4,7 +4,7 @@
 
 We (Clicks Minute Per) manage and/or host:
 - ClicksForms
-- https://clicksminuteper.net and https://clcks.dev
+- https://clicks.codes
 - ClicksForms Google Forms add-on
 
 ### Our policies
