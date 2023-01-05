@@ -1,5 +1,13 @@
+### ClicksForms Discord bot
+
+-----
+
+##### Data we collect
+> Only the data about your form and responses are stored on our servers. This includes the questions, answers, and date/time it was created
+> Any image or file uploaded using the "File upload" question type is sent to a private Discord server. Only ClicksForms developers have access to this channel. This allows us to delete the original file, while ensuring you can still view it afterwards. (After an image on Discord is deleted, the url no longer works)
+
+
 ### ClicksForms Google Forms add-on
-##### By ClicksMinutePer
 
 -----
 
