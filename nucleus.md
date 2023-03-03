@@ -1,5 +1,5 @@
-### Nucleus (Discord bot)
-##### By ClicksMinutePer
+### Nucleus Privacy Policy
+##### By Clicks
 
 -----
 
@@ -7,53 +7,53 @@
 
 [Your server](#server)
 
-[Verification](#verification)
+[Verify](#verify)
 
-[Mutes](#mutes)
+[Transcripts](#transcripts)
+
+[Mod Notes and History](#mod)
 
 -----
 
+### Definitions
+
+1. \[Square brackets] indicate exemptions
+  - U indicates users
+  - R indicates roles
+  - C indicates channels
+
+2. {Curly brackets} indicate feature requirements
+  - P indicates premium 
+
+
 ### Server
-         
+
 Nucleus stores information about your server needed to function. Below is a list of all data stored:
 
-- The server ID
-- When Nucleus joined the server
-- What the server is logging
-- What channel logs go to
-- What channel staff messages go to
-- What users to ignore logs for
-- What roles to ignore logs for
-- What channels to ignore logs for
-- If bots should be logged or not
-- If Nucleus is enabled
-- The role given for verifying
-- The message to send when someone joins
-- The channel to send a message in when someone joins
-- The role to give when someone joins
-- If the server is deleting invites
-- Who can send invites
-- Roles that can send invites
-- Channels where invites can be sent
-- What servers invites can link to
-- If images are deleted for being too small
-- If NSFW images are deleted
-- Roles the word filter does not apply to
-- Members the word filter does not apply to
-- Channels the word filter does not apply to
-- How long members must be in the server before the word filter does not apply to them
-- The list of words to ban (strict)
-- The list of words to ban (soft)
-- The punishment for having a nickname with a banned word
-- The category for modmail
-- The maximum amount of modmail tickets per user
-- The mention when a new ticket is created
-- The custom prefix(es) of the bot
-- The servers tags
-- The role given to muted members
+- The server's ID
+- Notifications to only send once
+- If NSFW / small iamges should be deleted
+- If malware should be deleted
+- Which words should be filtered, and \[U/R/C]
+- If invites should be deleted, and \[U/R/C]
+- If mass mentions should be deleted, and \[U/R/C], and which roles are allowed to be mentioned
+- Which channels should have their content deleted automatically, \[U/R]
+- Which channels should have their messages automatically published
+- If members should get a message when they join, and what role to give when they join
+- Which channels are marked as "stats channels", and what name they should have
+- What should be logged and where
+- Where staff notifications should be logged
+- Where attachments should be logged {P}
+- Which role to give when a user verifies
+- Which channel tickets should be created under, the custom types (and if they are in use), the role to ping, and the max tickets per user
+- The link and button text to send on messages when a user is kicked, banned, softbanned, warned, or their nickname is changed
+- The link, text and role to give when a user is muted, and if the users should be timed out
+- The list of tracks in the server (each with a name, if previous roles should be kept, if a role is required, the list of roles, and a lists of roles who can manage the track)
+- The list of tags in the server (each has a name and a property)
+- The role menus in the server (each with a name, description, minimum and maximum choices, and options, each with a name, description, and role)
 
-         
-# Verification
+
+# Verify
          
 If verification is used, additional information is stored about the user. The complete list is below:
 - The users ID
@@ -64,14 +64,16 @@ If verification is used, additional information is stored about the user. The co
 - The servers member count
 - The code the url should contain
 
-         
-# Mutes
-         
-If mutes are used, additional information is stored about the mute. The complete list is below:
-- The user muted
-- The moderator who muted the user
-- The reason for muting
-- When the user will be unmuted
-- The server they are muted in
-- The ID of the mute
-- The type of mute
+
+# Transcripts
+
+Transcripts are created when you purge messages or archive a support ticket. They are stored in a database and accessed with a 64 character code.
+
+This data can be deleted from /privacy
+
+
+# [Mod Notes and History][mod]
+
+User warns, bans, joins, etc. are stored for the /mod about command. This is for moderator use only and to view a history of the users past events.
+
+This data can be deleted from /privacy
