@@ -11,7 +11,7 @@
 
 [Transcripts](#transcripts)
 
-[Mod Notes and History](#mod)
+[Mod Notes and History](#notes)
 
 -----
 
@@ -74,7 +74,8 @@ All transcripts are permanently deleted from our servers after 30 days although 
 The data which we store on transcripts can be deleted from /privacy, you must delete exported transcripts or encryption keys yourself as we do not control these.
 
 
-# [Mod Notes and History][mod]
+# Notes
+#### Mod notes and history
 
 User warns, bans, joins, etc. are stored for the /mod about command. This is for moderator use only and to view a history of the user's past events.
 
