@@ -67,9 +67,11 @@ If verification is used, additional information is stored about the user. The co
 
 # Transcripts
 
-Transcripts are created when you purge messages or archive a support ticket. They are stored in a database and accessed with a 64 character code.
+Transcripts are created when you purge messages or archive a support ticket. They are stored encrypted in a database accessible only with a 64 character code and a 48 character encryption key. We do not store the key, so if you lose the key we will not be able to restore your transcripts. 
 
-This data can be deleted from /privacy
+All transcripts are permanently deleted from our servers after 30 days although you may still view transcripts that are stored elsewhere (e.g. ones which have been exported to Discord). By default we export all transcripts to your Discord logs.
+
+The data which we store on transcripts can be deleted from /privacy, you must delete exported transcripts or encryption keys yourself as we do not control these.
 
 
 # [Mod Notes and History][mod]
