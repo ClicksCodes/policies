@@ -11,7 +11,7 @@
 
 [Transcripts](#transcripts)
 
-[Mod Notes and History](#mod)
+[Mod Notes and History](#notes)
 
 -----
 
@@ -67,6 +67,12 @@ If verification is used, additional information is stored about the user. The co
 
 # Transcripts
 
+The following data is stored for transcripts:
+- Member (IDs, Avatars, nicknames & discriminators)
+- Guild ID
+- Channel ID
+- Messages (Embeds, Content, Timestamps, Flags, Attachments, Stickers)
+
 Transcripts are created when you purge messages or archive a support ticket. They are stored encrypted in a database accessible only with a 64-character code and a 48-character encryption key. We do not store the key, so if you lose the key we will not be able to restore your transcripts. 
 
 All transcripts are permanently deleted from our servers after 30 days although you may still view transcripts that are stored elsewhere (e.g. ones which have been exported to Discord). By default, we export all transcripts to your Discord logs.
@@ -74,7 +80,13 @@ All transcripts are permanently deleted from our servers after 30 days although 
 The data which we store on transcripts can be deleted from /privacy, you must delete exported transcripts or encryption keys yourself as we do not control these.
 
 
-# [Mod Notes and History][mod]
+# Notes
+#### Mod notes and history
+
+The following data is stored for mod notes:
+- Guild ID
+- Member ID
+- Note string
 
 User warns, bans, joins, etc. are stored for the /mod about command. This is for moderator use only and to view a history of the user's past events.
 
