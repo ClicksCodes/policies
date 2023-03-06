@@ -55,7 +55,7 @@ Nucleus stores information about your server needed to function. Below is a list
 
 # Verify
          
-If verification is used, additional information is stored about the user. The complete list is below:
+If verification is used, additional information is stored temporarily in-memory about the user. The complete list is below:
 - The user's ID
 - The ID of the role given when verified
 - The name of the role given when verified
@@ -91,3 +91,19 @@ The following data is stored for mod notes:
 User warns, bans, joins, etc. are stored for the /mod about command. This is for moderator use only and to view a history of the user's past events.
 
 This data can be deleted from /privacy
+
+# Unscan
+
+We use [unscan](https://rapidapi.com/abcdan/api/unscan) to scan for NSFW images. Unscan "do not store or sell your data" ever, nor do they rely on 3rd party services such as Google which do for image scanning.
+
+# Delete my data
+
+Nucleus contains multiple easy way for server staff to delete data.
+
+Any of the following will delete all data about a guild, permanently:
+- Removing the bot from your server
+- As the server owner, deleting data from the last page of `/privacy`
+
+Verification information is only stored in memory and expires after 1 hour
+
+Transcripts are stored with guild data so will be deleted in any of the normal circumstances but can additionally only survive for 30 days on our servers. Staff are strongly advised to keep transcript exports if they wish to view transcripts for longer than 30 days.
