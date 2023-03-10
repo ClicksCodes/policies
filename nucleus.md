@@ -92,9 +92,12 @@ User warns, bans, joins, etc. are stored for the /mod about command. This is for
 
 This data can be deleted from /privacy
 
-# Unscan
+# Profile scanning
 
-We use [unscan](https://rapidapi.com/abcdan/api/unscan) to scan for NSFW images. Unscan "do not store or sell your data" ever, nor do they rely on 3rd party services such as Google which do for image scanning.
+If moderators scan for NSFW images or banned words in profiles Nucleus stores the following for under a minute:
+- The user's profile picture
+
+Additionally, Nucleus stores a one-way hash of the image along with whether it was NSFW. No user data is stored with this hash and it is impossible to reverse it to get the original image. We only store this data to avoid us rescanning images in the future, it is never used (and indeed not very useful) for any other purpose.
 
 # Delete my data
 
